@@ -1,0 +1,29 @@
+
+
+button.buy-btn {
+    padding: 10px 25px;
+    color: white;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.color p{
+    color: orange;
+}
+.card{
+    border: none;
+box-shadow: 2px 2px 12px rgba(0,0,0,0.6);
+border-radius: 10px;
+}
+#categories h3:after{
+    content: '';
+    background-image: radial-gradient(orange,tomato);
+    display:block;
+    border-radius: 10px;
+    width: 125px;
+    height: 8px;
+    margin: 10px auto;
+}
